@@ -80,4 +80,6 @@ virtme-init: console is ttyAMA0
 root@(none):/#
 ```
 
+To exit, do CTRL+X A
+
 Interesting to note that KVM was not installed in this Linux VM so instead of nested virtualization, QEMU fell back to TCG (emulation).
